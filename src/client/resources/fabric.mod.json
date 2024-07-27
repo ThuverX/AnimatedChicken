@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "animatedchicken",
+  "version": "0.0.1",
+  "name": "Animated Chicken",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "ThuverX"
+  ],
+  "contact": {
+    "sources": "https://github.com/ThuverX/AnimatedChicken"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/animatedchicken/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.thuverx.AnimatedChickenModClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "animatedchicken.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+  }
+}

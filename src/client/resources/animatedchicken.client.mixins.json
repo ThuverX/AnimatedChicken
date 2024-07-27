@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.thuverx.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "SplashTextRendererMixin",
+    "SplashTextResourceSupplierMixin",
+    "entity.LivingEntityRendererMixin",
+    "screen.PackScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
